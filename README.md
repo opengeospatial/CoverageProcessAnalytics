@@ -1,7 +1,7 @@
 #  ESIP and OGC API - Coverages and Processing Analytics Sprint
 
 
-[<img src="https://www.opengeospatial.org/pub/www/files/pressrelease/CovProcAnAPISprint.png" width="400"/>]
+<img src="https://www.opengeospatial.org/pub/www/files/pressrelease/CovProcAnAPISprint.png" width="400"/>
 
 [Earth Science Information Partners (ESIP)](https://www.esipfed.org/), a community of data and information technology professionals, and the Open Geospatial Consortium (OGC), the leader in location standards, today announced an agile development sprint to advance APIs for analytics on coverages, arrays, and gridded data. This will be a key event in the development of OGC APIs for geospatial resources and building blocks for community APIs.
 
