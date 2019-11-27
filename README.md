@@ -1,0 +1,26 @@
+#  ESIP and OGC API - Coverages and Processing Analytics Sprint
+
+
+[<img src="https://www.opengeospatial.org/pub/www/files/pressrelease/CovProcAnAPISprint.png" width="400"/>]
+
+[Earth Science Information Partners (ESIP)](https://www.esipfed.org/), a community of data and information technology professionals, and the Open Geospatial Consortium (OGC), the leader in location standards, today announced an agile development sprint to advance APIs for analytics on coverages, arrays, and gridded data. This will be a key event in the development of OGC APIs for geospatial resources and building blocks for community APIs.
+
+This Github repository is for the Coverage Processing and Analysis API Sprint organized by OGC and ESIP.
+
+The Coverage Processing and Analysis API Sprint will be co-located with the [2020 ESIP Winter Meeting](https://2020esipwintermeeting.sched.com/info), which draws Earth Science data and information professionals from across the public, private, and academic sectors.
+
+The objectives of this sprint are to clarify requirements and methods for analytics on geospatial data, including rasters, non-uniformly distributed points, and other geospatial coverage data structures. By developing prototype functionality through running code, the sprint will assess and advance draft versions of OGC API - Coverage, OGC API - Process and OGC API - Common standards.
+
+“The first step for effective analysis is to choose how to represent the data," commented George Percivall, OGC CTO. “Using the OGC/ISO Geographic Coverages standard for data representation in OGC APIs is an effective approach for analysis on geospatial data from multiple sources and applications.”
+
+Initially, this sprint will address APIs for efficient methods to access coverages, without interpolation, from uniform grids as well as point samples that may not be uniformly distributed. Next, the sprint will experiment with analytics on coverages that may include interpolation and significant processing.
+
+“The power of geospatial data is increasingly recognized across sectors,” says Dr. Annie Burgess, Director of the ESIP Lab. “By coming together with OGC, we are empowering the Earth science data community to communicate their needs when it comes to performing analytics on geospatial data through standards.”
+
+A previous [OGC API Hackathon](http://docs.opengeospatial.org/per/19-062.html) in June 2019 advanced common elements across OGC APIs for Features, Coverages, Map Tiles, Processing, and Catalogs. The next sprints are advancing specific elements of the individual APIs.
+
+[OGC has been developing a new generation of web API standards](https://www.opengeospatial.org/blog/2996) leveraging OpenAPI to document requirements for implementation. [OGC API - Coverages](https://github.com/opengeospatial/ogc_api_coverages) places the semantics of the [Geospatial Coverages](https://portal.opengeospatial.org/files/?artifact_id=19820) into an [OpenAPI](https://www.openapis.org/) resource-oriented approach. To date, a basic access method for a coverage resource has been defined. OGC API - Coverages needs to be extended to include methods for analytics. Consistent with the OGC API approach, these coverage analytics methods are being made available as building blocks for reuse in APIs in any community.
+
+An OGC Sprint is a collaborative and inclusive event driven by innovative and rapid programming with minimum process and organization constraints to support the development of new applications and candidate standards. The Sprint will be run by the OGC API - Coverages Standards Working Group (SWG) Chairs, with support from OGC staff and the ESIP Lab, whose practice of innovation and applied technologies provides an excellent partnership with OGC.
+
+_For more information, including info on how to participate, visit the [Coverage Processing and Analysis Sprint web page](https://2020esipwintermeeting.sched.com/event/Vabd/esip-and-ogc-api-coverage-analytics-sprint-day-1) on the 2020 ESIP Winter Meeting website._

@@ -1,0 +1,21 @@
+== Logistics
+
+=== Hotels
+
+Please refer to the ESIP meeting info page https://2020esipwintermeeting.sched.com/info
+
+=== Infrastructure
+
+Participants will be expected to bring their own computers to the sprint.
+
+
+=== Power Plugs
+
+The United States mainly uses:
+
+* Type A power plugs https://www.iec.ch/worldplugs/typeA.htm
+* Type B power plugs https://www.iec.ch/worldplugs/typeB.htm
+
+=== Internet Connectivity
+
+The hosting venue will provide internet access through Wifi.

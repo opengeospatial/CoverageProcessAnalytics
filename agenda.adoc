@@ -1,0 +1,37 @@
+== Agenda
+
+=== Day 1 - January 6th, 2010
+
+09:00hrs - Welcome note
+
+09:15hrs - Goals and objectives
+
+09:30hrs - Introduction to the Draft Specification
+
+10:00hrs – Specification work starts [define the problem/scope]
+
+12:30hrs - Lunch
+
+13:30hrs - Resume [come up with multiple options]
+
+17:00hrs - Back-brief 1
+
+18:00hrs - Adjourn
+
+=== Day 2 - January 7th, 2010
+
+09:00hrs - Goals and objectives
+
+09:30hrs - Specification work resumes [implement the preferred option]
+
+12:00hrs - Back-brief 2
+
+12:30hrs - Working Lunch [complete implementation of the preferred option]
+
+13:30hrs – Specification work resumes [implement the preferred option]
+
+16:30hrs - Final back-brief
+
+17:30hrs - Closing note
+
+18:00hrs - Close
