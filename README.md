@@ -11,10 +11,10 @@ The Coverage Processing and Analysis API Sprint will be co-located with the [202
 
 This Github repository is for the Coverage Processing and Analysis API Sprint organized by OGC and ESIP.
 
-* link:Sprint_Description.adoc[Sprint_Description]
-* link:UseCases_Specs.adoc[Use Cases and API Specs]
-* link:logistics.adoc[Sprint Logistics]
-* link:https://2020esipwintermeeting.sched.com/event/Vabd/esip-and-ogc-api-coverage-analytics-sprint-day-1 [Schedule/Agenda on ESIP site]
+* [Sprint_Description](Sprint_Description.adoc)
+* [Use Cases and API Specs](UseCases_Specs.adoc)
+* [Sprint Logistics](logistics.adoc)
+* [Schedule/Agenda on ESIP site](https://2020esipwintermeeting.sched.com/event/Vabd/esip-and-ogc-api-coverage-analytics-sprint-day-1)
 * Implementations
 
 
