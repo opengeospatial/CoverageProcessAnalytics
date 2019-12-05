@@ -1,0 +1,47 @@
+Use Cases and API specs
+
+== Use Cases
+
+1. Raster/Grid/Array no interpolation
+2. Multi-point Coverages - non-uniform
+3. Analytics including interpolation
+
+Only gridded/rasters coverages and multi-point coverages are addressed, not Curve/Surface/SolidCoverages. The reason is that these are common use cases that receive the most attention today.  Gridded coverages or 'point-cloud' multi-point coverages are the primary data types considered but other kinds of datasets are not excluded.
+
+=== 1. Raster/Grid/Array
+* Data - 2D Grid
+** uniform in a CRS
+*** flat (projection) - primary
+*** curved (geographic)
+** Range Record: single value, vector (no tensors)
+* operations
+** subsetting, subselecting (no interpolation)
+*** i,j,k
+*** lat, long, time
+*** API Coverages
+** calculation Avg and NDVI (no interpolation)
+*** i,j,k
+*** lat, long, time
+*** API Coverages and? API Processing?
+
+== 2. multi-point coverages
+* non-uniform data distribution in the range
+* Range Record: single value, vector (no tensors)
+* subset by lat, lon, time
+** API coverages
+
+== 3. Analytics
+* API Coverages and API Processes
+* Data
+** flat (projection)
+** curved (geographic)
+* Functions including interpolation
+** regridding?
+
+== API Specifications
+
+Aim of use cases, implementations and testing is to update these draft OGC API specs:
+
+* link:https://github.com/opengeospatial/ogc_api_coverages[API Coverages]
+* link:https://github.com/opengeospatial/wps-rest-binding[API Processes]
+* link:https://github.com/opengeospatial/oapi_common[API Common]

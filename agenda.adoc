@@ -6,7 +6,7 @@
 
 09:15hrs - Goals and objectives
 
-09:30hrs - Introduction to the Draft Specification
+09:30hrs - Introduction to the Use Cases and Draft Specifications
 
 10:00hrs – Specification work starts [define the problem/scope]
 
