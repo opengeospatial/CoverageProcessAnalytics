@@ -12,6 +12,7 @@ This Github repository is for the Coverage Processing and Analysis API Sprint or
 * [Sprint Logistics](logistics.adoc)
 * [Schedule/Agenda on ESIP site](https://2020esipwintermeeting.sched.com/event/Vabd/esip-and-ogc-api-coverage-analytics-sprint-day-1)
 * Implementations
+* Additional Resources
 
 
 _For more information, including info on how to participate, visit the [Coverage Processing and Analysis Sprint web page](https://2020esipwintermeeting.sched.com/event/Vabd/esip-and-ogc-api-coverage-analytics-sprint-day-1) on the 2020 ESIP Winter Meeting website._
