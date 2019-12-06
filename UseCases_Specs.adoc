@@ -84,7 +84,7 @@ Aim of use cases, implementations and testing is to update these draft OGC API s
 * link:https://github.com/opengeospatial/oapi_common[API Common]
 
 
-
+== Additional Resources
 
 
 Footnote: link:Coverage_after_WCS.adoc[Coverages: before and after WCS]
