@@ -14,5 +14,6 @@ This Github repository is for the Coverage Processing and Analysis API Sprint or
 * Implementations
 * Additional Resources
 
+The associated Gitter channel for this Sprint is at https://gitter.im/opengeospatial/CoverageProcessAnalytics
 
 _For more information, including info on how to participate, visit the [Coverage Processing and Analysis Sprint web page](https://2020esipwintermeeting.sched.com/event/Vabd/esip-and-ogc-api-coverage-analytics-sprint-day-1) on the 2020 ESIP Winter Meeting website._
