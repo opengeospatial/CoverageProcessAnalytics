@@ -1,12 +1,18 @@
 == Use Cases and API specs
+
+Coverages span regular and irregular grids, point clouds, and meshes (i.e., curve, surface and solid bundles).
+For the purpose of this sprint, only gridded ("raster") coverages and point clouds (in coverage terminology: multi-point coverages) are addressed, not meshes (in coverage terminology: multi-curve/surface/solid coverages). The reason is that grids and point clouds are common use cases that receive the most attention today. However, other kinds of datasets are not excluded per se (and may be addressed in future).
+
+ISSUE: the enumeration below jumps from arrays to point clouds to arrays. Should be sorted.
+
 1. Raster/Grid/Array no interpolation
 2. Multi-point Coverages - non-uniform
 3. Analytics including interpolation
 
-Only gridded/rasters coverages and multi-point coverages are addressed, not Curve/Surface/SolidCoverages. The reason is that these are common use cases that receive the most attention today.  Gridded coverages or 'point-cloud' multi-point coverages are the primary data types considered but other kinds of datasets are not excluded.
-
-
 === 1. Raster/Grid/Array
+
+ISSUE: what is subselecting?
+
 * Data - 2D Grid
 ** Domain: Uniform distribution in a CRS
 ** Range type: scalar, vector (no tensors)
@@ -41,6 +47,8 @@ Only gridded/rasters coverages and multi-point coverages are addressed, not Curv
 
 
 Draft candidates for atomic pieces (also need use cases) - make comments.
+
+ISSUE: what data and services will be available for experimentation?
 
 complexity:
 - bbox access
