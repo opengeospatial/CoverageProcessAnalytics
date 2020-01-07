@@ -7,5 +7,41 @@
 * Running at http://147.102.109.27:5002
 * based on https://github.com/geopython/pygeoapi/tree/coverages
 
+=== link:http://54.93.148.198:8080/rasdaman/[rasdaman]
+
+* Running at http://54.93.148.198:8080/rasdaman/
+* data: see link:http://54.93.148.198:8080/rasdaman/ows[this overview] on coverages available, including:
+** 2D x/y images: `mean_summer_airtemp`
+** 3D x/y/t image timeseries: `AverageTemperature`, `AverageChlorophyll`, `S2_NDVI_84`, `S2_FALSE_COLOR_84`
+* functionality: 
+** coverage subsetting, ex (needs fix in path):
+....
+http://54.93.148.198:8080/rasdaman/coverages/S2_NDVI_84?
+    subset=Lat(51.9,52.1)
+   &subset=Long(-4.1,-3.9)
+   &subset=ansi("2018-11-14")
+   &f=image/png
+....
+** WCPS queries, ex:
+***return scalar constant:
+....
+http://54.93.148.198:8080/rasdaman/collections?
+    Q=for $c in (S2_NDVI_84)
+      return 42 
+....
+*** extract 2D image from 3D x/y/t datacube:
+....
+http://54.93.148.198:8080/rasdaman/collections?
+    Q=for $c in (S2_NDVI_84)
+      return encode( $c[Lat(51.9:52.1), Long(-4.1:-3.9), ansi("2018-11-14")], "jpeg" ) 
+....
+*** aggregation over selected datacube area:
+....
+http://54.93.148.198:8080/rasdaman/collections?
+    Q=for $c in (S2_FALSE_COLOR_84)
+      return avg( (($c.0 - $c.1)/($c.0 + $c.1))
+                  [Lat(51.9:52.1), Long(-4.1:-3.9), ansi("2018-11-14")] ) 
+....
+
 === Clients
 
