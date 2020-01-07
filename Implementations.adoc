@@ -1,5 +1,7 @@
 == Implementations
 
+https://app.swaggerhub.com/apis/Schpidi/ogcapi-coverages-1/1.0.0[SwaggerHub definition] regularly exported to https://github.com/opengeospatial/ogc_api_coverages/blob/January-2020-Sprint/standard/openapi/openapi.json[openapi.json] and https://github.com/opengeospatial/ogc_api_coverages/blob/January-2020-Sprint/standard/openapi/openapi.yaml[openapi.yaml]
+
 === Servers
 
 === link:https://pygeoapi.io[pygeoapi]
