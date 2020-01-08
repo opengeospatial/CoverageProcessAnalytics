@@ -20,9 +20,9 @@ https://app.swaggerhub.com/apis/Schpidi/ogcapi-coverages-1/1.0.0[SwaggerHub defi
 ** WCPS requests
 
 ==== Examples:
-Coverage subsetting (path to be fixed):
+Coverage subsetting:
 ....
-http://54.93.148.198:8080/rasdaman/coverages/S2_NDVI_84?
+http://54.93.148.198:8080/rasdaman/collections/S2_NDVI_84?
     subset=Lat(51.9,52.1)
    &subset=Long(-4.1,-3.9)
    &subset=ansi("2018-11-14")
